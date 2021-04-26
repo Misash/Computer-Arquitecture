@@ -96,7 +96,7 @@ int main()
 		M[i] = str[i] - '0';
 	}
 
-	printf("Segundo numero: ");scanf("%s", str);
+	cout<<"Segundo numero: ";scanf("%s", str);
 
 
 	for(i=0; str[i]!='\0'; i++)
@@ -139,7 +139,7 @@ int main()
 	}
 	if(A[0]==1)
 	{
-		printf("Product(negative) : ");
+		cout<<"\nProducto(negativo) : ";
 		for(i=0; i<2*size; i++)
 		{
 			if(i<size)
